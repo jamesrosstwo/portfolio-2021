@@ -10,6 +10,8 @@ import { FeaturedWork } from 'components/FeaturedWork';
 import { Tools } from 'components/Tools';
 import { Footer } from 'components/Footer';
 
+
+
 const metaData = {
   title: 'James Ross',
   description: 'Data scientist and undergraduate student. Roboticist.',
@@ -96,14 +98,7 @@ export class Home extends Component {
                  description="Used Ruby on Rails and MongoDB to develop various administrative tools for the portals on the IBM Developer Skills Network"
                 >
 
-                {/* Download resume */}
-                <div className="row">
-                  <div className="button-container" style={{ textAlign: 'left'}}>
-                      <a href="https://github.com/jamesrosstwo/react-portfolio/raw/master/src/assets/resume.pdf" target="_blank">
-                        <i className="fa fa-file-pdf-o" aria-hidden="true"></i> &nbsp; Download resume
-                      </a>
-                  </div>
-                </div>
+                
 
                 </Gig>
 
@@ -121,6 +116,55 @@ export class Home extends Component {
           </div>
 
         </section>
+
+        <div className="container">
+
+          <div className="col-xs-12">
+           
+          </div>
+
+            <div className="row micro-container">
+              <div className="col-xs-12 col-sm-6 col-sm-push-6 micro-item ">
+                <div className="section-title micro-item"><a href="http://bearubc.com/" target="_blank">BEAR UBC</a></div>
+                <br></br>
+                <p>BEAR UBC is a team for the purpose of developing smart, reliable and affordable bionic technology. We plan to compete in CYBATHLON 2021's powered arm prosthesis race.
+                <br></br> <br></br>
+
+                On BEAR, I lead the Analytics team: a small group of six students using information from on-board sensors to improve usability and functionality of the arm. We are developing solutions such as determining the optimal grip pattern to pick up held objects, haptic feedback using vibrational motors, and shape classification of held objects.</p>
+              </div>
+
+              <div className="col-xs-12 col-sm-6 col-sm-pull-6 micro-item">
+                <img src="https://i.imgur.com/F5irJEV.jpeg" alt="How it works" />
+              </div>
+            </div>
+
+            <div className="row micro-container">
+              <div className="col-xs-12 col-sm-6 ">
+                <div className="section-title micro-item"><a href="https://www.ubcrobomaster.com/" target="_blank">UBC Robomaster</a></div><br></br>
+                <p>UBC Robomaster is a student team building a fleet of robots and developing a reinforcement-learning solution to DJI's Robomaster AI Challenge.</p>
+                <br></br>
+                <p>I am currently the technical lead of UBC Robomaster, leading the design of the approach we take to solve this problem.</p>
+              </div>
+
+              <div className="col-xs-12 col-sm-6 micro-item">
+                <img src="https://i.imgur.com/E3oUq2t.jpeg" alt="Float labels" />
+              </div>
+            </div>
+            
+            <div className="row micro-container hidden-xs last">
+              <div className="col-xs-12 col-sm-6 col-sm-push-6">
+                <div className="section-title micro-item"><a href="https://devpost.com/software/polygraph-njl81d" target="_blank">Polygraph</a></div><br></br>
+                <p>Polygraph is a hackathon project designed to counter videographic misinformation online: it timestamps and captions dubious claims in real time, overturning them with links to reliable statistics or articles to refute them.</p>
+                <br></br>
+                <p>As a chrome extension, it removes the need for users to manually input video links or download the video themselves; it detects the presence of a YouTube webpage, and will scan for false claims at the click of a button.</p>
+              </div>
+
+              <div className="col-xs-12 col-sm-6 col-sm-pull-6 micro-item">
+                <img src="https://i.imgur.com/rO3nSJi.jpeg" alt="Float labels" />
+              </div>
+            </div>
+
+        </div>
 
         {/* Footer */}
         <Footer />

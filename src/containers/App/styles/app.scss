@@ -59,6 +59,12 @@
     text-align: center;
     margin-top: 20px;
     width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+
+    &-link{
+      display:inline-block;
+    }
 
     a {
       margin: 0 !important; //override .heading-title

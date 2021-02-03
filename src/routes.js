@@ -13,7 +13,6 @@ const appHistory = useRouterHistory(createHashHistory)({ queryKey: false });
 export default (
   <Route path="/" component={App} history={appHistory}>
     <IndexRoute component={Home} history={appHistory} />
-    <Route path="projects" history={appHistory} component={Projects} />
     <Route status={404} path="*" component={Home} />
   </Route>
 );
