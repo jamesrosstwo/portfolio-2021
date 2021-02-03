@@ -15,13 +15,27 @@ export class Tools extends Component {
         <div className="sidebar-title">Technologies</div>
 
           <span className="tool-wrapper">
-            <img src="http://sideproject.io/content/images/2016/09/reactjs.jpg" data-tip data-for="react" alt="React"/>
+            <img src="https://i.imgur.com/AREoYXf.png" data-tip data-for="python" alt="python"/>
+            <ReactTooltip effect="solid" id="python">
+              <span>Python</span>
+            </ReactTooltip>
+          </span>
+
+          <span className="tool-wrapper">
+            <img src="https://i.imgur.com/4fUS1Bp.png" data-tip data-for="pytorch" alt="PyTorch"/>
+            <ReactTooltip effect="solid" id="pytorch">
+              <span>PyTorch</span>
+            </ReactTooltip>
+          </span>
+
+          <span className="tool-wrapper">
+            <img src="https://i.imgur.com/TPlByt8.png" data-tip data-for="react" alt="React"/>
             <ReactTooltip effect="solid" id="react">
               <span>React</span>
             </ReactTooltip>
           </span>
           <span className="tool-wrapper">
-            <img className="node" src="http://sideproject.io/content/images/2016/09/node.jpg" data-tip data-for="node" alt="Node" />
+            <img className="node" src="https://i.imgur.com/rQFR6kY.png" data-tip data-for="node" alt="Node" />
             <ReactTooltip effect="solid" id="node">
               <span>Node</span>
             </ReactTooltip>
@@ -33,5 +47,4 @@ export class Tools extends Component {
 }
 
 Tools.propTypes = {
-
 };

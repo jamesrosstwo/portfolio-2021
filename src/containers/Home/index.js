@@ -114,16 +114,6 @@ export class Home extends Component {
             </div>
 
             <div className="col-md-3">
-
-              <div className="sidebar-title">Skills</div>
-              <ul style={{ background: '#fff', padding: '15px 20px'}}>
-                <li><strong>Python:</strong> Three years of development experience</li>
-                <li><strong>Spark:</strong> </li>
-                <li><a href="https://www.smashingmagazine.com/2014/05/team-collaboration-closing-efficiency-gaps-responsive-design/" target="_blank">Smashing Magazine</a> - Team Collaboration And Closing Efficiency Gaps In Responsive Design</li>
-                <li><a href="https://the-pastry-box-project.net/brian-krall/2014-february-19" target="_blank">The Pastry Box</a> - Go with your gut</li>
-                <li>PyTorch</li>
-              </ul>
-
               <Tools />
             </div>
 
