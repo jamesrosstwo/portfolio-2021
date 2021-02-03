@@ -39,7 +39,7 @@ export class Header extends Component {
               </div>
             </div>
           </header>
-          <header className="top-header navbar">
+          {/* <header className="top-header navbar">
             <div className="container">
               <div className="row navbar-row">
                 <div className="navbar-links col-xs-12">
@@ -48,7 +48,7 @@ export class Header extends Component {
                 </div>
               </div>
             </div>
-          </header>
+          </header> */}
         </section>
     );
   }
