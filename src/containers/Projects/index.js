@@ -61,7 +61,7 @@ export class Projects extends Component {
               </div>
             </div>
 
-            <div className="row micro-container hidden-xs last">
+            <div className="row micro-container">
               <div className="col-xs-12 col-sm-6 ">
                 <div className="section-title micro-item"><a href="https://www.ubcrobomaster.com/" target="_blank">UBC Robomaster</a></div><br></br>
                 <p>UBC Robomaster is a student team building a fleet of robots and developing a reinforcement-learning solution to DJI's Robomaster AI Challenge.</p>
@@ -73,7 +73,19 @@ export class Projects extends Component {
                 <img src="https://i.imgur.com/E3oUq2t.jpeg" alt="Float labels" />
               </div>
             </div>
+            
+            <div className="row micro-container hidden-xs last">
+              <div className="col-xs-12 col-sm-6 col-sm-push-6">
+                <div className="section-title micro-item"><a href="https://devpost.com/software/polygraph-njl81d" target="_blank">Polygraph</a></div><br></br>
+                <p>Polygraph is a hackathon project designed to counter videographic misinformation online: it timestamps and captions dubious claims in real time, overturning them with links to reliable statistics or articles to refute them.</p>
+                <br></br>
+                <p>As a chrome extension, it removes the need for users to manually input video links or download the video themselves; it detects the presence of a YouTube webpage, and will scan for false claims at the click of a button.</p>
+              </div>
 
+              <div className="col-xs-12 col-sm-6 col-sm-pull-6 micro-item">
+                <img src="https://i.imgur.com/rO3nSJi.jpeg" alt="Float labels" />
+              </div>
+            </div>
 
         </div>
 
