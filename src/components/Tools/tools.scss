@@ -29,9 +29,12 @@
       display: inline-block;
     }
     img {
-      height: auto;
+      height: 80%;
       transition: .3s all ease;
-      width: 100px;
+      border-radius: 10%;
+      width: 80%;
+      display: block;
+      margin: 10%;
     }
   }
 }

@@ -35,7 +35,7 @@ export class Tools extends Component {
             </ReactTooltip>
           </span>
           <span className="tool-wrapper">
-            <img className="node" src="https://i.imgur.com/rQFR6kY.png" data-tip data-for="node" alt="Node" />
+            <img className="node" src="https://i.imgur.com/nTxlWVn.jpg" data-tip data-for="node" alt="Node" />
             <ReactTooltip effect="solid" id="node">
               <span>Node</span>
             </ReactTooltip>
