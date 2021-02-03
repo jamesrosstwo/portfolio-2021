@@ -63,7 +63,7 @@ export class Projects extends Component {
 
             <div className="row micro-container hidden-xs last">
               <div className="col-xs-12 col-sm-6 ">
-                <div className="section-title micro-item">UBC Robomaster</div>
+                <div className="section-title micro-item"><a href="https://www.ubcrobomaster.com/" target="_blank">UBC Robomaster</a></div><br></br>
                 <p>UBC Robomaster is a student team building a fleet of robots and developing a reinforcement-learning solution to DJI's Robomaster AI Challenge.</p>
                 <br></br>
                 <p>I am currently the technical lead of UBC Robomaster, leading the design of the approach we take to solve this problem.</p>

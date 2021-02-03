@@ -12,7 +12,7 @@ import { Footer } from 'components/Footer';
 
 const metaData = {
   title: 'James Ross',
-  description: 'Data scientist and undergraduate student. Roboticist. ',
+  description: 'Data scientist and undergraduate student. Roboticist.',
   meta: {
     charset: 'utf-8',
   },
