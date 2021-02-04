@@ -189,7 +189,9 @@ export class Home extends Component {
                 <div className="section-title micro-item"><a href="https://www.ubcrobomaster.com/" target="_blank">UBC Robomaster</a></div><br></br>
                 <p>UBC Robomaster is a student team building a fleet of robots and developing a reinforcement-learning solution to DJI's Robomaster AI Challenge.</p>
                 <br></br>
-                <p>I am currently the technical lead of UBC Robomaster, leading the design of the approach we take to solve this problem.</p>
+                <p>I am currently the technical lead of UBC Robomaster, leading the design of the approach we take to solve this problem. The current solution involves a simulation, brain, autoaim, and strategist. 
+                <br></br>  
+                The simulation is used to generate data and train models. The brain is a computer that is not on-board the robot. It takes camera information from around the field to determine things like field layout and robot position. Autoaim is used by the on-board camera to aim at enemy robots in its field of view and shoot pellets at them. The strategist is the reinforcement-learning model that the robots use to determine where to move, and the general area in which to look. </p>
               </div>
 
               <div className="col-xs-12 col-sm-6 micro-item">
