@@ -35,7 +35,7 @@ export class Home extends Component {
             <BrowserHeader
               showBioPic
               title={["Hi, I'm James.",
-                      <span className="explainer"> My work includes data science, machine learning applied to robotics, and computer vision.</span>
+                      <span className="explainer"> My work includes data science, cybersecurity, machine learning applied to robotics, and computer vision.</span>
                     ]}
               headingClassString="text-left"
               titleClass="home"
