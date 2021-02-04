@@ -165,7 +165,7 @@ export class Home extends Component {
 
           <div className="col-xs-12">
            
-          <div className="section-header-container">
+          <div className="section-header-container" id="projects">
             <h1 className="section-header">Projects</h1>
           </div>
           </div>
