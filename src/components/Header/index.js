@@ -39,16 +39,17 @@ export class Header extends Component {
               </div>
             </div>
           </header>
-          {/* <header className="top-header navbar">
+          <header className="top-header navbar">
             <div className="container">
               <div className="row navbar-row">
                 <div className="navbar-links col-xs-12">
                   <div className="navbar-link-container"><a className="navbar-link" href="/">Home</a></div>
-                  <div className="navbar-link-container"><a className="navbar-link" href="/projects">Projects</a></div>
+                  <div className="navbar-link-container"><a className="navbar-link" href="#work-experience">Experience</a></div>
+                  <div className="navbar-link-container"><a className="navbar-link" href="#projects">Projects</a></div>
                 </div>
               </div>
             </div>
-          </header> */}
+          </header>
         </section>
     );
   }

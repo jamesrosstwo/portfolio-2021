@@ -204,6 +204,32 @@
   .fa-map-marker {
     margin-right: 5px;
   }
-
-
 }
+
+.section-header{
+  font-weight: 600;
+  left: 1.1%;
+  position: relative;
+
+  &-container{
+    width: 102%;
+    left: -1%;
+    position: relative;
+    border-bottom: 2px solid black;
+    margin-top: 10rem;
+    margin-bottom: 3.5rem;
+    border-radius: 4%;
+  }
+}
+
+#work-experience{
+  padding-top: 0;
+  margin-top: 0;
+  &-header{
+    margin-top: 0;
+    &-container{
+      margin-top: 0;
+    }
+  }
+}
+

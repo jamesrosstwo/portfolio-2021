@@ -30,7 +30,7 @@ export class BrowserHeader extends Component {
                 <a className="button-container-link" href="mailto:james@jamesross.xyz" target="_blank">
                 <i className="fa fa-envelope-o" aria-hidden="true"></i> &nbsp; Get in touch
                 </a>
-                <a className="button-container-link" href="https://github.com/jamesrosstwo/react-portfolio/raw/master/src/assets/resume.pdf" target="_blank">
+                <a className="button-container-link" href="https://raw.githubusercontent.com/jamesrosstwo/portfolio-2021/main/src/assets/resume.pdf" target="_blank">
                   <i className="fa fa-file-pdf-o" aria-hidden="true"></i> &nbsp; Download resume
                 </a>
               &nbsp; &nbsp;

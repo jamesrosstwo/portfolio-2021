@@ -54,6 +54,8 @@ export class Projects extends Component {
                 <br></br> <br></br>
 
                 On BEAR, I lead the Analytics team: a small group of six students using information from on-board sensors to improve usability and functionality of the arm. We are developing solutions such as determining the optimal grip pattern to pick up held objects, haptic feedback using vibrational motors, and shape classification of held objects.</p>
+
+                <strong>Test</strong>
               </div>
 
               <div className="col-xs-12 col-sm-6 col-sm-pull-6 micro-item">
@@ -66,7 +68,7 @@ export class Projects extends Component {
                 <div className="section-title micro-item"><a href="https://www.ubcrobomaster.com/" target="_blank">UBC Robomaster</a></div><br></br>
                 <p>UBC Robomaster is a student team building a fleet of robots and developing a reinforcement-learning solution to DJI's Robomaster AI Challenge.</p>
                 <br></br>
-                <p>I am currently the technical lead of UBC Robomaster, leading the design of the approach we take to solve this problem.</p>
+                <p>I am currently the technology lead of UBC Robomaster, leading the design of the approach we take to solve this problem.</p>
               </div>
 
               <div className="col-xs-12 col-sm-6 micro-item">
