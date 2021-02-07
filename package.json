@@ -106,6 +106,7 @@
     "react-github-corner": "^0.3.0",
     "react-redux": "^4.0.6",
     "react-router": "^2.0.0-rc5",
-    "redux": "^3.1.4"
+    "redux": "^3.1.4",
+    "typewriter-effect": "^2.17.0"
   }
 }

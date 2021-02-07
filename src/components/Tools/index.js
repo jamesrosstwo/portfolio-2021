@@ -58,7 +58,7 @@ export class Tools extends Component {
 
           <span className="tool-wrapper">
             <img src="https://i.imgur.com/ZdEUojO.png" data-tip data-for="sass" alt="Sass"/>
-            <ReactTooltip effect="solid" id="Sass">
+            <ReactTooltip effect="solid" id="sass">
               <span>Sass</span>
             </ReactTooltip>
           </span>

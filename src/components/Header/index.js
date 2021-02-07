@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 /* component styles */
 import { styles } from './header.scss';
+import { Navbar } from 'components/Navbar';
+
 
 export class Header extends Component {
   render() {
@@ -14,7 +16,6 @@ export class Header extends Component {
                   <div className="site-title">
                     <a href="/">@james</a>
                   </div>
-                  {/*<h3 className="status">Current status: <span className="shrugs">¯\_(ツ)_/¯</span> </h3> */}
                 </div>
                 <div className="col-xs-6 social text-right">
                   <a href="https://www.github.com/jamesrosstwo" target="_blank">
@@ -39,17 +40,8 @@ export class Header extends Component {
               </div>
             </div>
           </header>
-          <header className="top-header navbar">
-            <div className="container">
-              <div className="row navbar-row">
-                <div className="navbar-links col-xs-12">
-                  <div className="navbar-link-container"><a className="navbar-link" href="/">Home</a></div>
-                  <div className="navbar-link-container"><a className="navbar-link" href="#work-experience">Experience</a></div>
-                  <div className="navbar-link-container"><a className="navbar-link" href="#projects">Projects</a></div>
-                </div>
-              </div>
-            </div>
-          </header>
+          <Navbar></Navbar>
+
         </section>
     );
   }

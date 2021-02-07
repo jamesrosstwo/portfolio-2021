@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import DocumentMeta from 'react-document-meta';
+import Typewriter from 'typewriter-effect';
 
 // UI components
 import { Header } from 'components/Header';
@@ -34,8 +35,25 @@ export class Home extends Component {
           <div className="col-xs-12">
             <BrowserHeader
               showBioPic
-              title={["Hi, I'm James.",
-                      <span className="explainer"> My work includes data science, cybersecurity, machine learning applied to robotics, and computer vision.</span>
+              title={["Hi, I'm James. ",
+                      <span className="explainer">
+                        I'm an undergradate student who is passionate about all things related to
+                        <Typewriter
+                          options={{
+                            strings: [
+                              "Data Science",
+                              "Robotics",
+                              "Artificial Intelligence", 
+                              "Cyber Security"
+                            ],
+                            autoStart: true,
+                            loop: true,
+                            delay: 33,
+                            deleteSpeed: 70,
+                          }}
+                        />
+                        
+                      </span>
                     ]}
               headingClassString="text-left"
               titleClass="home"
