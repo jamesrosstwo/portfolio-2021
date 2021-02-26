@@ -43,7 +43,9 @@ export class Home extends Component {
                             strings: [
                               "Data Science",
                               "Robotics",
-                              "Artificial Intelligence", 
+                              "Computer Vision",
+                              "Software Engineering",
+                              "Reinforcement Learning",
                               "Cyber Security"
                             ],
                             autoStart: true,
@@ -225,7 +227,7 @@ export class Home extends Component {
                 <br></br>
                 <p>The current disposal solution of HLW is to place them in deep geological repositories, whose risk is significant. An alternative solution would be to transmute these fission products into stable isotopes or isotopes with shorter half-lives, through various nuclear reactions. However, nuclear transmutation through neutron absorption is challenging due to low neutron absorption cross sections. Recently, transmutation using photons (particles of light) has been a topic of investigation as a viable reaction channel.</p>
                 <br></br>
-                <p>I am working as a mentee of the <a href="https://www.uroubc.com/rex/" target="_blank">URO Research Experience Program</a> to explore the potential for photo-induced nuclear transmutation of HLW with photon beams that are currently under development at the <a href="https://www.triumf.ca/ariel" target="_blank"> TRIUMF-ARIEL </a> facility on the UBC Vancouver campus, and am hoping to </p>
+                <p>I am working as a mentee of the <a href="https://www.uroubc.com/rex/" target="_blank">URO Research Experience Program</a> to explore the potential for photo-induced nuclear transmutation of HLW with photon beams that are currently under development at the <a href="https://www.triumf.ca/ariel" target="_blank"> TRIUMF-ARIEL </a> facility on the UBC Vancouver campus, and am presenting in the Multidisciplinary Undergraduate Research Conference in March.</p>
               </div>
 
               <div className="col-xs-12 col-sm-6 col-sm-pull-6 micro-item">
