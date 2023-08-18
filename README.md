@@ -1,6 +1,5 @@
 portfolio-2021
 =========================
-Portfolio. Below documentation based on [https://github.com/anorudes/redux-easy-boilerplate](https://github.com/anorudes/redux-easy-boilerplate).
 
 ## Installation
 ```
@@ -45,3 +44,6 @@ your `web root`.
 ## Run karma
 ```
 $ npm test
+```
+
+README file based on [https://github.com/anorudes/redux-easy-boilerplate](https://github.com/anorudes/redux-easy-boilerplate).
