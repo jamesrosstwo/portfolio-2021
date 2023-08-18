@@ -32,7 +32,7 @@ export class Home extends Component {
                         <BrowserHeader
                             showBioPic
                             title={["Hi, I'm James. ", <span className="explainer">
-                        I'm an undergradate student interested in all things
+                        I'm an undergradate student interested in all things:
                         <Typewriter
                             options={{
                                 strings: ["Data Science", "Robotics", "Computer Vision", "Software Engineering", "Prosthesis", "Cyber Security", "Bioinformatics"],
@@ -52,13 +52,13 @@ export class Home extends Component {
 
                 <section className="container" id="work-experience">
                     <div className="section-header-container" id="work-experience-header-container">
-                        <h1 className="section-header" id="work-experience-header">Experience</h1>
+                        <h1 className="section-header" id="work-experience-header">Work Experience</h1>
                     </div>
                     <div className="row">
                         <div className="col-md-9">
                             {/* The Vector Institute */}
                             <Gig
-                                companyLogo="https://i.imgur.com/mrWuRJn.png"
+                                companyLogo="https://i.imgur.com/bJipTiE.png"
                                 companyName="The Vector Institute"
                                 position="Research Assistant"
                                 date="May 2022 - December 2022"
@@ -204,26 +204,27 @@ export class Home extends Component {
                     <div className="col-xs-12">
 
                         <div className="section-header-container" id="projects">
-                            <h1 className="section-header">Projects</h1>
+                            <h1 className="section-header">Personal Projects & Teams</h1>
                         </div>
                     </div>
                     <div className="row micro-container">
                         <div className="col-xs-12 col-sm-6 ">
                             <div className="section-title micro-item"><a href="https://www.ubcdsci.club/"
                                                                          target="_blank">UBC Data Science Club</a></div>
+                            <p>
+                                The Data Science Club aims provide students an opportunity to learn about the field of data
+                                science and subjects related to data science. Members are able to attend events such as
+                                workshops, learn from mentors, and join a team to build a project or enter data science
+                                competitions.
+                                <br></br><br></br>
+                                Launched the data science club, hosting large scale collaborative projects, in-depth
+                                technical workshops, and a student conference.
+                                Brought in over 600 members to our community, with 270 conference registrations as president in 2023.
+                                <br></br>
 
-                            The Data Science Club aims provide students an opportunity to learn about the field of data
-                            science and subjects related to data science. Members are able to attend events such as
-                            workshops, learn from mentors, and join a team to build a project or enter data science
-                            competitions.
-                            <br></br><br></br>
-                            Launched the data science club, hosting large scale collaborative projects, in-depth
-                            technical workshops, and a student conference.
-                            Brought in over 600 members to our community, with 270 conference registrations in 2023.
-                            <br></br>
-
-                            Leading 30 UBC students in developing four projects ranging from endangered species
-                            detection on fishing boats to public space usage estimation.
+                                Leading 30 UBC students in developing four projects ranging from endangered species
+                                detection on fishing boats to public space usage estimation.
+                            </p>
                         </div>
 
                         <div className="col-xs-12 col-sm-6 micro-item">
